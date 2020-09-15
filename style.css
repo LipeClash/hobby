@@ -1,0 +1,39 @@
+body{
+    background-color: #666562e5;
+    text-align: center;
+}
+
+h1{
+    font-family: normal;
+    font-weight: 900;
+    text-align: center;
+    color: #c00a0a;
+}
+
+h1:hover {
+    color: #c00a0a;
+    background-color: orangered;
+    transition: color, background-color 2s;
+}
+
+h2{
+    font-style: italic;
+    background-color: orangered;
+    color: black;
+}
+
+.menu{
+    text-align: left;
+}
+
+.meu-conteiner{
+    display: flex; height: 50px; justify-content: space-around; align-items: center;
+    background-color: orangered;
+}
+.item-conteiner{
+    color: black;
+}
+
+img{
+    width:250px; height:150px ;border-width: 2px; border-style: solid; border-color: black;
+}
